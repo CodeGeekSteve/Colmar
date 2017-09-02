@@ -14,20 +14,21 @@ body{
 
 header{
 height: 4rem;
-background-color: red;
 }
 
-.conatiner{
+.container{
   max-width: 960px;
+  margin: auto;
 }
 
 .flex-container{
   max-width: 960px;
+  height: 4rem;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
+  line-height: 2rem;
 }
 
 .logo{
@@ -35,24 +36,24 @@ background-color: red;
 }
 
 .logo img{
-  width: 2.2rem;
-  margin-left: 1.5rem;
+  height: 2rem;
+ margin-left: 1.5rem;
 }
 
 .company span{
-  color: black;
+  color: #585858;
+  font-weight: 590;
 }
 
-.company h2{
-  color: lightgray;
+.company h3{
+  color: #A9A9A9;
   font-weight: lighter;
-  font-size: 2rem;
 }
 
 .company nav ul{
   list-style-type: none;
   display: flex;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 
 .company nav ul li{
@@ -62,4 +63,21 @@ background-color: red;
 .company nav ul li a{
   text-decoration: none;
   color: black;
+}
+
+/* DIV 1 */
+
+section{
+ background-color: red;
+ height: 34rem;
+}
+
+section  .banner-image img{
+  margin-right: 1.5rem;
+  float: left;
+  width: 60%;
+}
+
+.banner-text{
+float: right;
 }
