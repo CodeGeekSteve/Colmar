@@ -74,7 +74,7 @@ height: 4rem;
 
 .banner-image{
 float: left;
-width: 55%;
+width: calc(60% - 3rem);
 margin: 2rem 0 2rem 1.5rem;
 }
 
@@ -103,20 +103,27 @@ margin-right: 3rem;
   color: #404040;
 }
 
-.button{
-  background-color:  #4d4d4d;
-  width: 90%;
-  padding: 0.7rem;
-  text-align: center;
-}
-
-.button a{
+  .button a{
   text-decoration: none;
   color: white;
+  background-color:  #4d4d4d;
+  padding: 0.7rem 5.9rem;
+  text-align: center;
 }
 
 /* DIV 2 */
 
-.template{
-  
+.template1{
+  display: flex;
+  background-color: yellow;
+}
+
+.column-left{
+width: calc(60% - 3rem);
+margin: 2rem 1.5rem;
+float: left;
+}
+
+.column-left img{
+  width: 100%;
 }
