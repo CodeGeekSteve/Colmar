@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: "Helvetica";
+}
+
+/*header*/
+
+header{
+height: 4rem;
+background-color: red;
+}
+
+.conatiner{
+  max-width: 960px;
+}
+
+.flex-container{
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.logo{
+  display: flex;
+}
+
+.logo img{
+  width: 2.2rem;
+  margin-left: 1.5rem;
+}
+
+.company span{
+  color: black;
+}
+
+.company h2{
+  color: lightgray;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.company nav ul{
+  list-style-type: none;
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.company nav ul li{
+  margin: auto 0.5rem;
+}
+
+.company nav ul li a{
+  text-decoration: none;
+  color: black;
+}
