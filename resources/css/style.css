@@ -115,15 +115,87 @@ margin-right: 3rem;
 
 .template1{
   display: flex;
-  background-color: yellow;
 }
 
 .column-left{
 width: calc(60% - 3rem);
-margin: 2rem 1.5rem;
+margin: 2rem 1.4rem 2rem 1.5rem;
 float: left;
 }
 
 .column-left img{
   width: 100%;
+  margin-bottom: 2rem;
 }
+
+.column-left h1{
+  font-size: 2rem;
+  color: #4d4d4d;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+}
+
+.column-left p{
+  margin-bottom: 1.4rem;
+ font-size: 0.85rem;
+ color: #404040;
+}
+
+.column-left span{
+  color: #4d4d4d;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+
+.column-right{
+  float: right;
+  width: 40%;
+}
+
+.article{
+  display: flex;
+  padding: 1rem 0 1rem 1rem;
+  border-left: 0.5px solid #e6e6e6;
+  border-bottom: 0.5px solid #e6e6e6;
+}
+
+.article img{
+  width: 35%;
+  height: 130px;
+}
+
+.article-text{
+padding: 1.5rem 1rem;
+}
+
+#article-text{
+  padding: 1rem 1rem;
+}
+
+#article{
+  background-color: #e6e6e6;
+  border-bottom: 0;
+}
+
+#article1{
+  padding-top: 2rem;
+}
+
+.article p{
+  margin: 0.5rem 0 1rem 0;
+ font-size: 0.8rem;
+ color: #404040;
+}
+
+.article h3{
+  color: #4d4d4d;
+}
+
+.article a{
+  text-decoration: none;
+  color: #00bfff;
+  font-size: 0.8rem;
+}
+
+/* DIV 3 */
