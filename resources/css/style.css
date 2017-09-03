@@ -255,13 +255,21 @@ padding: 1.5rem 1rem;
   display: flex;
 }
 
+.template1 h5{
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 2rem 0 0 0;
+  text-align: center;
+  color: #4d4d4d;
+}
+
 .column-left{
 width: calc(60% - 3rem);
 margin: 2rem 1.4rem 2rem 1.5rem;
 float: left;
 }
 
-.column-left img{
+.column-left video{
   width: 100%;
   margin-bottom: 2rem;
 }
@@ -285,51 +293,65 @@ float: left;
 }
 
 
-.column-right{
+.column-right1{
   float: right;
   width: 40%;
+  margin-top: 2rem;
 }
 
-.article{
+.article-2{
   display: flex;
-  padding: 1rem 0 1rem 1rem;
-  border-left: 0.5px solid #e6e6e6;
-  border-bottom: 0.5px solid #e6e6e6;
+  padding: 1rem 0 0.5rem 1rem;
 }
 
-.article img{
+.article-2 img{
   width: 35%;
-  height: 130px;
+  height: 35%;
 }
 
 .article-text{
 padding: 1.5rem 1rem;
 }
 
-#article-text{
-  padding: 1rem 1rem;
+#article-text1{
+  padding: 2.5rem 1rem;
 }
 
-#article{
+#article1-2{
   background-color: #e6e6e6;
-  border-bottom: 0;
 }
 
-#article1{
-  padding-top: 2rem;
-}
-
-.article p{
-  margin: 0.5rem 0 1rem 0;
+.article-2 p{
+  margin: 0.5rem 0 ;
  font-size: 0.8rem;
 }
 
-.article h3{
+.article-2 h3{
   color: #4d4d4d;
 }
 
-.article a{
-  text-decoration: none;
-  color: #00bfff;
-  font-size: 0.8rem;
+/* footer */
+
+footer{
+  padding-top: 1rem;
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+footer span{
+  font-size: 0.7rem;
+  margin-left: 1.5rem;
+}
+
+footer .nav-foot{
+display: flex;
+margin-right: 1.5rem;
+}
+
+footer .nav-foot li{
+  list-style: none;
+  margin: 0 1rem;
+  font-size: 0.7rem;
 }
